@@ -43,11 +43,145 @@
         </ul>        
     </div>
 
-    <h4>Location of Meeting</h4>
-    <img src="./geisel.jpg" alt="Image of Geisel" width="300" height="200">
-    <link rel="icon" href="./tritonLogo.ico">
+    <div>
+        <h4>Location of Meeting</h4>
+        <img src="./geisel.jpg" alt="Image of Geisel" width="300" height="200">
+        <link rel="icon" href="./tritonLogo.ico">
+    </div>
+   
+
+    <audio controls src="./t-3ddKB5vCLuKrfCdigGyNtMXRK9ERbNS4.m4a" type="aduio/m4a"></audio>
+    <video src="./t-3ddKB5vCLuKrfCdigGyNtMXRK9ERbNS4.mp4" controls width="640"></video>
+
+    <details>
+        <summary>Details</summary>
+        Details.txt
+    </details>
+    
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-example">
+            <label for="student-id">Enter your student-id </label>
+            <input type="student-id" name="student-id" id="student-id" required />
+        </div>
+        <div class="form-example">
+            <input type="submit" value="Enter" />
+        </div>
+    </form>
+
+    <form>
+    <fieldset>
+        <legend>Choose your favorite food</legend>
+
+        <input type="radio" id="ice cream" name="food" value="I" />
+        <label for="ice cream">ice cream</label><br />
+
+        <input type="radio" id="cookies" name="food" value="S" />
+        <label for="cookies">cookies</label><br />
+
+        <input type="radio" id="candy" name="food" value="M" />
+        <label for="candy">candy</label>
+    </fieldset>
+    </form>
+
+    <div>
+    <label for="checkbox">checkbox</label>
+
+    <input
+    type="text"
+    id="checkbox"
+    name="checkbox"
+    required
+    minlength="4"
+    maxlength="8"
+    size="10" />
+    </div>
+    <div>
+    <label for="radio">radio</label>
+
+    <input
+    type="text"
+    id="radio"
+    name="radio"
+    required
+    minlength="4"
+    maxlength="8"
+    size="10" />
+    </div>
+    <div>
+    <label for="text">text</label>
+
+    <input
+    type="text"
+    id="text"
+    name="text"
+    required
+    minlength="4"
+    maxlength="8"
+    size="10" />
+    </div>
+    <div>
+    <label for="text">text</label>
+
+    <input
+    type="text"
+    id="text"
+    name="text"
+    required
+    minlength="4"
+    maxlength="8"
+    size="10" />
+    </div>
+    <div>
+    <label for="date">date</label>
+
+    <input
+    type="text"
+    id="date"
+    name="date"
+    required
+    minlength="4"
+    maxlength="8"
+    size="10" />
+    </div>
+    
+    <label for="Text">Text</label>
+
+    <textarea id="text" name="text" rows="5" cols="33">
+        sample text
+    </textarea>
+
+    <div>
+        <label for="color-choice">Choose a flavor:</label>
+        <input list="colors" id="color-choice" name="color-choice" />
+
+        <datalist id="colors">
+        <option value="red"></option>
+        <option value="blue"></option>
+        <option value="yellow"></option>
+        <option value="orange"></option>
+        <option value="gray"></option>
+        </datalist>
+    </div>
+
+    <div>
+        <label for="color-select">Choose a color:</label>
+
+        <select name="pets" id="color-select">
+        <option value="">--Please choose an option--</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="orange">orange</option>
+        </select>
+    </div>
+
+    <button class="favorite color" type="button">Add color</button>
 
     <hr />
+
     <footer>© 2026 Sean Yang</footer>
 </body>
 </html>
