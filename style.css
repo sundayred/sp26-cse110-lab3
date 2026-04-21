@@ -68,7 +68,7 @@ section {
 
 .agenda-container {
   background-color: color-mix(in srgb, gray, white 70%);
-  border: 1px solid color(colorspace 0.5 0.5 0.5);
+  border: 1px solid color(display-p3 0.5 0.5 0.5);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
