@@ -79,8 +79,8 @@ form.form-example {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
-  margin: 2rem auto;
   max-width: 400px;
+  margin: 2rem auto;
 }
 
 img {
@@ -121,5 +121,79 @@ footer {
   nav.self ul {
     flex-direction: column;
     text-align: left;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h3 {
+  color: #0f1a2d;
+  font-size: 1.8rem;
+}
+
+.agenda-container {
+  background-color: #fbf3f3;
+  border-radius: 12px;
+}
+
+#student-id {
+  border: 2px solid #ca9a2a;
+}
+
+input[list="colors"] {
+  background-color: #9c997a;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header a {
+  font-size: 24px;
+}
+
+section > p {
+  line-height: 1.6;
+  color: #423c3c;
+}
+
+h2 ~ section {
+  margin-top: 18px;
+}
+
+input + label {
+  font-style: italic;
+  margin-left: 9px;
+}
+
+a.logo {
+  border-bottom: 3px solid #9c7929;
+}
+
+div:has(video) {
+  background-color: #000;
+  text-align: left;
+  padding: 20px;
+}
+
+.form-example {
+  background: white;
+
+  & label {
+    font-weight: 600;
+    display: block;
+
+    & + input {
+      width: 90%;
+      padding: 10px;
+    }
   }
 }
